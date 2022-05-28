@@ -2,8 +2,8 @@
 ###################
 # Creates generator wallet, gets address, dumps its WIF key, leaves no traces behind.
 # Parameter $1 = command path for bitcoin-cli ie 'bitcoin-cli' or 
-# '/snap/bitcoin-core/current/bin/bitcoin-cli'. Tails usually needs '-rpcport=17600')
-# Call this script with 'bash getwif.sh [Path to bitcoin-cli]'
+# '/snap/bitcoin-core/current/bin/bitcoin-cli'. Tails usually needs '-rpcport=17600'
+# Run this script with 'bash getwif.sh [Path to bitcoin-cli]'
 # Note: bitcoind must already be running or 'Enable RPC Server' checked in GUI options and restart.
 ###################
 
